@@ -1,0 +1,11 @@
+<h1 class="titre">page de gestion des personnages</h1>
+<div *ngFor="let personnage of persoList; let i = index">
+  {{ personnage.id }}
+  {{ personnage.name }}
+  <!--<button (click)="selectPersonnage(personnage)">éditer</button>
+    -<button (click)="delete(personnage.id!)">deleted</button> --->
+</div>
+
+<!--
+<input type="text" [(ngModel)]="name">
+<button type="button" (click)="save()">save</button>-->
